@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>jarvisUi</class>
+ <widget class="QMainWindow" name="jarvisUi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1925</width>
+    <height>1058</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bg_1">
+    <property name="geometry">
+     <rect>
+      <x>-6</x>
+      <y>5</y>
+      <width>1931</width>
+      <height>1031</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Gui/B.G/Black_Template.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>671</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(5, 209, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_3">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>20</y>
+      <width>661</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(5, 209, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gif_1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>651</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Gui/ExtraGui/fiugi.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gif_2">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>30</y>
+      <width>641</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Gui/ExtraGui/live.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gif_3">
+    <property name="geometry">
+     <rect>
+      <x>-140</x>
+      <y>500</y>
+      <width>721</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Gui/VoiceReg/Aqua.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_4">
+    <property name="geometry">
+     <rect>
+      <x>1560</x>
+      <y>40</y>
+      <width>321</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(5, 209, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Gui/ExtraGui/Earth.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_5">
+    <property name="geometry">
+     <rect>
+      <x>1540</x>
+      <y>350</y>
+      <width>341</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(5, 209, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Start">
+    <property name="geometry">
+     <rect>
+      <x>1570</x>
+      <y>370</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+font: 24pt &quot;Courier New&quot;;
+color: rgb(85, 255, 255);font: 21pt &quot;Courier New&quot;;
+background-color: rgb(0, 0, 0);
+color: rgb(85, 255, 255);
+border-radius:none</string>
+    </property>
+    <property name="text">
+     <string>START</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Exit">
+    <property name="geometry">
+     <rect>
+      <x>1570</x>
+      <y>440</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+font: 24pt &quot;Courier New&quot;;
+color: rgb(85, 255, 255);font: 21pt &quot;Courier New&quot;;
+background-color: rgb(0, 0, 0);
+color: rgb(85, 255, 255);
+border-radius:none</string>
+    </property>
+    <property name="text">
+     <string>EXIT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>540</y>
+      <width>671</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_6">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>610</y>
+      <width>891</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(5, 209, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Youtube">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>530</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 255);
+font: 90 20pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>YouTube</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Chrome">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>530</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 255);
+font: 90 20pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Chrome</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Whatsapp">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>530</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 255);
+font: 90 18pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>WhatsApp</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>620</y>
+      <width>871</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Gui/ExtraGui/Health_Template.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>1440</x>
+      <y>610</y>
+      <width>451</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Gui/ExtraGui/gga.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
